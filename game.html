@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+ <script src="game.js"></script>
+</head>
+<body onload="carregou()">
+  <div class="container">
+  <h3 id="player1_name">:</h3> <span id="player1_score"></span>
+<br>
+<h3 id="player2_name">:</h3> <span id="player2_score"></span>
+</div>
+    <center>
+        <div class="container"></div>
+        <h2 style="color: blue;">Quiz de matemática!!!</h2>
+  
+    </div>
+    <br>
+    <div>
+    <h3>Turno de pergunta:</h3>
+    <h4 id="turnoPergunta" ></h4>
+  <br>
+    <h3>Turno de resposta:</h3>
+    <h4 id="turnoResposta" ></h4>
+    <br>
+    </div>
+    <div  id="output">
+        <br>
+        <h3 id="questão"></h3>
+        <br>
+     <h3>resposta:</h3> <input id="resposta">
+     <br>
+     <br>
+     <button class="btn btn-success" id="checar" onclick="checar()">Checar</button>
+     <br>
+    </div>
+    <br>
+    <br><br><br><br><br>
+    <h3>faça a pergunta aqui!</h3>
+    <br>
+        <h4>Numero1</h4>
+        <input id="n1">
+        <h4>Número2</h4>
+        <input id="n2">
+        <br>
+        <br>
+        <button class="btn btn-success" id="enviar" onclick="enviar()">Enviar</button>
+<br>
+<br>
+<br>
+<br>
+    </center>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
